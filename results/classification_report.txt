@@ -1,1 +1,80 @@
+=========================================================
+Classification Report
+=========================================================
 
+Model Type:
+Convolutional Neural Network (CNN)
+
+Classification Task:
+Multi-class Image Classification
+
+Number of Classes:
+7
+
+Classes:
+
+- Cardboard
+- Food_Waste
+- Glass
+- Metal
+- Other
+- Paper
+- Plastic
+
+=========================================================
+
+Evaluation Metrics
+
+• Accuracy
+
+Measures the overall percentage of correctly classified images.
+
+---------------------------------------------------------
+
+• Precision
+
+Indicates how many predicted samples of a class actually belong to that class.
+
+---------------------------------------------------------
+
+• Recall
+
+Measures how many actual samples of a class are correctly identified.
+
+---------------------------------------------------------
+
+• F1 Score
+
+Harmonic mean of Precision and Recall.
+
+---------------------------------------------------------
+
+• Confusion Matrix
+
+Shows the number of correct and incorrect predictions for each class.
+
+=========================================================
+
+The trained CNN model was evaluated using the above metrics to assess
+its classification performance across all waste categories.
+
+The notebook also generates:
+
+✓ Classification Report
+
+✓ Confusion Matrix
+
+✓ Accuracy Curves
+
+✓ Loss Curves
+
+=========================================================
+
+Note:
+
+Actual metric values depend on the training dataset,
+random initialization,
+hyperparameters,
+and train-validation split used during execution.
+
+=========================================================
