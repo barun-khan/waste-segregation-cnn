@@ -1,1 +1,70 @@
+==============================================================
+Model Summary
+==============================================================
 
+Model: "Sequential"
+
+_________________________________________________________________
+
+Layer (type)                 Output Shape              Parameters
+
+=================================================================
+
+Input Layer                  (128, 128, 3)
+
+Conv2D (32 filters)          (126, 126, 32)
+
+MaxPooling2D                 (63, 63, 32)
+
+Conv2D (64 filters)          (61, 61, 64)
+
+MaxPooling2D                 (30, 30, 64)
+
+Conv2D (128 filters)         (28, 28, 128)
+
+MaxPooling2D                 (14, 14, 128)
+
+Flatten                      (25088)
+
+Dense (128 neurons)          (128)
+
+Dropout (0.5)
+
+Dense (7 neurons, Softmax)   (7)
+
+=================================================================
+
+Loss Function:
+Categorical Crossentropy
+
+Optimizer:
+Adam
+
+Activation Functions:
+ReLU
+Softmax
+
+=================================================================
+
+Input Image Size:
+128 × 128 × 3
+
+Number of Output Classes:
+7
+
+Output Labels:
+
+• Cardboard
+• Food_Waste
+• Glass
+• Metal
+• Other
+• Paper
+• Plastic
+
+=================================================================
+
+This CNN model was developed using TensorFlow/Keras for multi-class
+image classification of waste materials.
+
+==============================================================
